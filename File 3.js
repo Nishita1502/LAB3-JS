@@ -41,6 +41,19 @@ app.delete('/delete/:id', (req, res) => {
     res.send('Item deleted successfully!');
 });
 
+//Route to demonstrate CRUD operations (GET)
+app.get('/data', (req, res) => {
+    
+    fs.readFile('./data/data.json', 'utf8', (err, data) => {
+        if (err) {
+            console.error(err);
+            res.status(500).send('Internal Server Error');
+            return;
+        }
+        res.send(data);
+    });
+});
+
 // Starting the server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
