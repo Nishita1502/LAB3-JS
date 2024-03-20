@@ -1,0 +1,9 @@
+[
+    { "id": 1, "name": "Naaz", "Job-title": "Chef" },
+
+    { "id": 2, "name": "Mani", "Job-title": "Machine Operator" },
+    { "id": 3, "name": "Ginni", "Job-title": "Cshier" },
+    { "id": 4, "name": "Harpreet", "Job-title": "HR assisstant" },
+    { "id": 5, "name": "Honey", "Job-title": "Server" },
+    { "id": 6, "name": "Jass", "Job-title": "Manager" }
+]
